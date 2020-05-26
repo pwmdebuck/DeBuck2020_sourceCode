@@ -1,0 +1,38 @@
+INFO: checking out_of_order
+INFO: checking system
+INFO: checking solvers
+INFO: checking dup_inputs
+WARNING: The following components have multiple inputs connected to the same source, which can introduce unnecessary data transfer overhead:
+   traj.phases.phase0.interleave_comp has inputs ['col_values:Vdot', 'col_values:state_rates:V'] connected to traj.phases.phase0.rhs_col.car.Vdot
+   traj.phases.phase0.interleave_comp has inputs ['col_values:alphadot', 'col_values:state_rates:alpha'] connected to traj.phases.phase0.rhs_col.car.alphadot
+   traj.phases.phase0.interleave_comp has inputs ['col_values:lambdadot', 'col_values:state_rates:lambda'] connected to traj.phases.phase0.rhs_col.car.lambdadot
+   traj.phases.phase0.interleave_comp has inputs ['col_values:omegadot', 'col_values:state_rates:omega'] connected to traj.phases.phase0.rhs_col.car.omegadot
+   traj.phases.phase0.interleave_comp has inputs ['col_values:sdot', 'col_values:state_rates:s'] connected to traj.phases.phase0.rhs_col.car.sdot
+   traj.phases.phase0.interleave_comp has inputs ['disc_values:Vdot', 'disc_values:state_rates:V'] connected to traj.phases.phase0.rhs_disc.car.Vdot
+   traj.phases.phase0.interleave_comp has inputs ['disc_values:alphadot', 'disc_values:state_rates:alpha'] connected to traj.phases.phase0.rhs_disc.car.alphadot
+   traj.phases.phase0.interleave_comp has inputs ['disc_values:lambdadot', 'disc_values:state_rates:lambda'] connected to traj.phases.phase0.rhs_disc.car.lambdadot
+   traj.phases.phase0.interleave_comp has inputs ['disc_values:omegadot', 'disc_values:state_rates:omega'] connected to traj.phases.phase0.rhs_disc.car.omegadot
+   traj.phases.phase0.interleave_comp has inputs ['disc_values:sdot', 'disc_values:state_rates:s'] connected to traj.phases.phase0.rhs_disc.car.sdot
+
+INFO: checking missing_recorders
+WARNING: The Problem has no recorder of any kind attached
+INFO: checking comp_has_no_outputs
+INFO: checking out_of_order
+INFO: checking system
+INFO: checking solvers
+INFO: checking dup_inputs
+WARNING: The following components have multiple inputs connected to the same source, which can introduce unnecessary data transfer overhead:
+   traj.phases.phase0.interleave_comp has inputs ['col_values:Vdot', 'col_values:state_rates:V'] connected to traj.phases.phase0.rhs_col.car.Vdot
+   traj.phases.phase0.interleave_comp has inputs ['col_values:alphadot', 'col_values:state_rates:alpha'] connected to traj.phases.phase0.rhs_col.car.alphadot
+   traj.phases.phase0.interleave_comp has inputs ['col_values:lambdadot', 'col_values:state_rates:lambda'] connected to traj.phases.phase0.rhs_col.car.lambdadot
+   traj.phases.phase0.interleave_comp has inputs ['col_values:omegadot', 'col_values:state_rates:omega'] connected to traj.phases.phase0.rhs_col.car.omegadot
+   traj.phases.phase0.interleave_comp has inputs ['col_values:sdot', 'col_values:state_rates:s'] connected to traj.phases.phase0.rhs_col.car.sdot
+   traj.phases.phase0.interleave_comp has inputs ['disc_values:Vdot', 'disc_values:state_rates:V'] connected to traj.phases.phase0.rhs_disc.car.Vdot
+   traj.phases.phase0.interleave_comp has inputs ['disc_values:alphadot', 'disc_values:state_rates:alpha'] connected to traj.phases.phase0.rhs_disc.car.alphadot
+   traj.phases.phase0.interleave_comp has inputs ['disc_values:lambdadot', 'disc_values:state_rates:lambda'] connected to traj.phases.phase0.rhs_disc.car.lambdadot
+   traj.phases.phase0.interleave_comp has inputs ['disc_values:omegadot', 'disc_values:state_rates:omega'] connected to traj.phases.phase0.rhs_disc.car.omegadot
+   traj.phases.phase0.interleave_comp has inputs ['disc_values:sdot', 'disc_values:state_rates:s'] connected to traj.phases.phase0.rhs_disc.car.sdot
+
+INFO: checking missing_recorders
+WARNING: The Problem has no recorder of any kind attached
+INFO: checking comp_has_no_outputs
