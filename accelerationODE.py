@@ -46,7 +46,6 @@ class AccelerationODE(om.ExplicitComponent):
         self.declare_partials(of='aydot', wrt='lambdadot', rows=arange, cols=arange)
 
 
-
     def compute(self, inputs, outputs):
         tau_y = inputs['tau_y']
         tau_x = inputs['tau_x']
